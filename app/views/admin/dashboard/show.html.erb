@@ -1,3 +1,22 @@
-<h1>Dashboard</h1>
-<p>Products in database <%= @products_number %></p>
-<p>Categories in database <%= @categories %></p>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Type</th>
+      <th scope="col">Total Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Products</td>
+      <td><%= @products_number %></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Categories</td>
+      <td><%= @categories %></td>
+    </tr>
+  </tbody>
+</table>

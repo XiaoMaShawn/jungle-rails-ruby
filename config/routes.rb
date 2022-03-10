@@ -14,9 +14,11 @@ Rails.application.routes.draw do
 
   resources :orders, only: [:create, :show]
 
+  # namespace route so that controller created will be in app/controllers/admin/dashboard or products
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
+    resources :categories, except: [:edit, :update, :show]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

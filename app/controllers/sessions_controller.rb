@@ -3,8 +3,7 @@ class SessionsController < ApplicationController
     #@user = User.find_by_email(params[:email])
   end
 
-  def create
-    @email = @email.delete(' ').downcase
+  def create 
     if user = User.authenticate_with_credentials(params[:email], params[:password])
       session[:user_id] = user.id
       redirect_to '/'

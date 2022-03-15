@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   end
   # helper_method allows us to use @current_user in our view files.
   helper_method :current_user
-
+  
 
   # Authorize is for sending someone to the login page if they aren't logged in - this is how we keep certain pages our site secure... user's have to login before seeing them.
   def authorize

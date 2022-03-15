@@ -11,7 +11,7 @@
   <%= render 'layouts/top_nav' %>
 
   <main class="container">
-
+  <%#= current_user.inspect %>
   <% if active_sale? %>
   <% sale = Sale.active.first %>
     <p class="alert alert-info">

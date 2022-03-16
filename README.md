@@ -3,8 +3,9 @@
 A mini e-commerce application built with Rails 4.2.
 
 ## Screen Shoot
-!["Here is what the website looks like"](jungle-rails-ruby/docs/Screen Shot 2022-03-16 at 3.19.05 PM.png)
-!["Here is what the checkout page looks like"](jungle-rails-ruby/docs/Screen Shot 2022-03-16 at 3.22.14 PM.png)
+!["Here is what the website looks like"](https://github.com/XiaoMaShawn/jungle-rails-ruby/blob/d4710d0a48f178d49fa7b7324660e6fc2188cae6/docs/Screen%20Shot%202022-03-16%20at%203.19.05%20PM.png)
+
+!["Here is what the checkout page looks like"](https://github.com/XiaoMaShawn/jungle-rails-ruby/blob/d4710d0a48f178d49fa7b7324660e6fc2188cae6/docs/Screen%20Shot%202022-03-16%20at%203.22.14%20PM.png)
 
 ## Additional Steps for Apple M1 Machines
 
